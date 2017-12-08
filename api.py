@@ -29,10 +29,8 @@ def index():
 Option Data Web Gleaner API v1
 =======
 
-Team
+Author
 ----  
-*Minglu Sun, MS. Business Analytics, msun40@fordham.edu*   
-*Ye Wang, MS. Computer Science, ywang0811@gmail.edu*  
 *Yiting Cai, MS. Business Analytics, ycai47@foreham.edu* 
 """
   content = Markup(markdown.markdown(content))
