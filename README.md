@@ -1,4 +1,6 @@
 # Option-downloading-API
+A Flask Web Application to automating options downloading and analyzing. 
+
 ## Objective 
 A web application with light framework to automating option downloading, european option filtering and distribution visualization. 
 
