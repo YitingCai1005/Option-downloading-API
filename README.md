@@ -1,5 +1,5 @@
 # Option-downloading-API
-## objective 
+## Objective 
 A web application with light framework to automating option downloading, european option filtering and distribution visualization. 
 
 ## Usage
