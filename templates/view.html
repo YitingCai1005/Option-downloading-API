@@ -1,0 +1,12 @@
+<!doctype html>
+<title>European option</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+
+<div class=page>
+  {% for table,name in rr %}
+
+       <h2>European option for {{name.upper()}}</h2>
+      <a href="/api/v1/european/CSV/{{ name }}">csv download</a>
+    {{ table|safe }}
+  {% endfor %}
+</div>

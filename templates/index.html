@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Option Data Web Gleaner API</title>
+      <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+
+  </head>
+  <body>
+  {% for ll in resource %}
+        <a href="/api/v1/help/{{ ll.lower() }}">{{ ll }}</a>
+  {% endfor %}
+
+    {{ content }}
+
+  </body>
+</html>
